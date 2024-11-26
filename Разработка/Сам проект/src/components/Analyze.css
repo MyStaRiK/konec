@@ -1,0 +1,195 @@
+/* Основное поле анализа */
+.analyze-container {
+    text-align: center;
+    background-color: #365A82;
+    color: #fff;
+    padding: 20px;
+    margin: 1% auto;
+    border-radius: 20px;
+    width: 95%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Заголовки */
+.analyze-container h1,
+.analyze-container h2 {
+    margin: 10px 0;
+    color: #fff;
+}
+
+/* Секции с информацией */
+.info-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+/* Блоки информации */
+.info-block {
+    background-color: #D9D9D9;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 25%;
+    height: 175px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    /* Flex для выравнивания заголовков и содержимого */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Заголовки в блоках */
+.info-block h3 {
+    font-size: 1.65em;
+    margin: 0;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+/* Текст в блоках */
+.info-block p {
+    margin: 10px 0;
+}
+
+/* Секция участников */
+.participants-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    width: 100%;
+}
+
+/* Блок участника */
+.participant {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+/* Фото участников */
+.photo-placeholder {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    overflow: hidden;
+    margin: 0 auto 10px;
+    background-color: #c4c4c4;
+}
+
+.photo-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Имя участника */
+.participant-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+/* Блок статистики */
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; /* Расстояние между строками */
+}
+
+/* Очки и рейтинг */
+.stats .points,
+.stats .rating {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Метки для очков и рейтинга */
+.stats .label {
+    font-weight: normal; /* Обычный текст для метки */
+    color: #ccc; /* Светлый цвет метки */
+    align-self: flex-start;
+}
+
+/* Кнопка закрытия */
+.button.close {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: all 0.3s ease;
+}
+
+.button.close:hover {
+    background-color: #acacac;
+}
+
+/* Центрированная статистика */
+.stats-center {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px; /* Отступ между колонками */
+}
+
+/* Участники и их статистика */
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.stats .points, .stats .rating {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.final-rating {
+    font-size: 1.5em; /* Увеличиваем размер текста в 1.5 раза */
+    font-weight: bold; /* Подчеркиваем важность текста */
+    color: #fff; /* Убедимся, что текст белый для видимости */
+}
+.notification {
+    background-color: #ffeb3b;
+    color: #000;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .button.back {
+    margin-top: 10px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button.back:hover {
+    background-color: #e0e0e0;
+  }
+   

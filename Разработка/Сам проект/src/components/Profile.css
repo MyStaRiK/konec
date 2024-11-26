@@ -1,0 +1,50 @@
+.profile-popup {
+    position: fixed;
+    top: 10px; /* Расположен в верхнем правом углу */
+    right: 10px;
+    width: 20%; /* Ширина 15% экрана */
+    max-width: 500px; /* Максимальная ширина */
+    min-width: 250px; /* Минимальная ширина */
+    background-color: #B7D3F4; /* Темный фон */
+    color: #000000; /* Белый текст */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Тень для объема */
+    border-radius: 12px; /* Скругленные углы */
+    padding: 15px; /* Внутренние отступы */
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Отступы между элементами */
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .profile-header h2 {
+    margin: 0;
+    font-size: 18px; /* Размер заголовка */
+  }
+  
+  .profile-header button {
+    background-color: #dbdbdb;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .profile-header button:hover {
+    background-color: #747474;
+    color: #fff;
+  }
+  
+  .profile-content p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: center; /* Центрируем содержимое */
+  align-items: center;
+  padding: 20px; /* Более крупный отступ */
+  border-bottom: 3px solid #000000; /* Оранжевая полоска для акцента */
+  color: #eeeeee;
+  position: relative; /* Для кнопок авторизации */
+}
+
+nav {
+  display: flex;
+  gap: 50px; /* Равное расстояние между элементами меню */
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffa500; /* Цвет ссылок */
+  font-weight: bold;
+  font-size: 18px; /* Увеличенный шрифт для читаемости */
+  padding: 8px 15px; /* Пространство вокруг текста */
+  border-radius: 5px; /* Лёгкое скругление */
+}
+
+nav a:hover {
+  background-color: #ffa500; /* Оранжевый фон */
+  color: #000; /* Чёрный текст при наведении */
+}
+
+.auth {
+  position: absolute; /* Фиксируем кнопки справа */
+  right: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.auth button {
+  background-color: #ffffff; /* Серый цвет кнопок */
+  color: #000;
+  border: none;
+  padding: 10px 20px; /* Пропорциональные отступы */
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.auth button:hover {
+  background-color: #949494; /* Тёмно-серый при наведении */
+  color: #000;
+}
